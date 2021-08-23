@@ -6,10 +6,6 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"SinkTableName ": {
-				"type": "string",
-				"defaultValue": "customer_table"
-			},
 			"Sink_Table_Name": {
 				"type": "String",
 				"defaultValue": "Test"
