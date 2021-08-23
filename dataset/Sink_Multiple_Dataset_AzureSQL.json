@@ -9,6 +9,10 @@
 			"SinkTableName ": {
 				"type": "string",
 				"defaultValue": "customer_table"
+			},
+			"Sink_Table_Name": {
+				"type": "String",
+				"defaultValue": "Test"
 			}
 		},
 		"annotations": [],
@@ -16,7 +20,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": {
-				"value": "@dataset().SinkTableName",
+				"value": "@dataset().Sink_Table_Name",
 				"type": "Expression"
 			}
 		}
