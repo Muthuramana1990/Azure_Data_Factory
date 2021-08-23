@@ -362,7 +362,7 @@
 									}
 								},
 								{
-									"name": "LookupNewWaterMarkActivity ",
+									"name": "LookupNewWaterMarkActivity",
 									"type": "Lookup",
 									"dependsOn": [],
 									"policy": {
@@ -401,7 +401,7 @@
 											]
 										},
 										{
-											"activity": "LookupNewWaterMarkActivity ",
+											"activity": "LookupNewWaterMarkActivity",
 											"dependencyConditions": [
 												"Succeeded"
 											]
@@ -495,7 +495,7 @@
 										"storedProcedureParameters": {
 											"LastModifiedtime": {
 												"value": {
-													"value": "@activity('LookupNewWaterMarkActivity ').output.firstRow.NewWatermarkvalue",
+													"value": "@activity('LookupNewWaterMarkActivity').output.firstRow.NewWatermarkvalue",
 													"type": "Expression"
 												},
 												"type": "DateTime"
