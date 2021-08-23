@@ -173,7 +173,7 @@
 								"storedProcedureParameters": {
 									"LastModifiedtime": {
 										"value": {
-											"value": "@activity('LookupNewWaterMarkActivity ').output.firstRow.NewWatermarkvalue",
+											"value": "@activity('LookupNewWaterMarkActivity').output.firstRow.NewWatermarkvalue",
 											"type": "Expression"
 										},
 										"type": "DateTime"
