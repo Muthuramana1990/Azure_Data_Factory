@@ -12,7 +12,7 @@
 			"ssisProperties": {
 				"catalogInfo": {
 					"catalogServerEndpoint": "adftest1990.database.windows.net",
-					"catalogAdminUserName": "admin",
+					"catalogAdminUserName": "adfadmin",
 					"catalogAdminPassword": {
 						"type": "SecureString",
 						"value": "**********"
